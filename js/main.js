@@ -17,7 +17,7 @@ console.log("JavaScript file connected!");
 //       });
 // }
 
-//Live time displayed to DOM
+//Live time and date displayed to DOM
 `use strict`;
 function refreshTime() {
   const timeDisplay = document.getElementById("dateTime");

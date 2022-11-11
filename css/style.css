@@ -38,30 +38,56 @@
 /*******************************************/
 
 body {
-     color: #000;
+     color: white;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
+     font-family: 'Poppins', sans-serif;
+     background-image: url('../img/ferris-wheel.jpg');
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-color: black;
+     
+    
 
+}
+/* button{
+     
+} */
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+/* header {
     
 }
 
 footer {
 
-}
+} */
 nav {
      height: 50px;
     background-color: teal;
 }
 main{
+     height: 100%;
      text-align: center;
+     padding: 2rem 10rem;
 }
+#cityInfo{
+     /* background-color: aquamarine; */
+     display: grid;
+     gap: .3rem;
+     align-items: center;
+     padding: 0 2rem .5rem 20rem;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     
+}
+h3.gridBlock{
+     margin: 0;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
