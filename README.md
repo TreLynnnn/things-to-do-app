@@ -13,8 +13,8 @@
 
 # Optimizations
 
-# To further improve the user interface, future plans for this app include refining the design using the TailwindCSS framework. The goal is to create a more engaging and visually appealing experience for users, with an emphasis on usability and accessibility. The addition of animations and transitions will also provide a smoother and more enjoyable user experience.
+# To further improve the user interface, plans for this app include refining the design using the TailwindCSS framework. The goal is to create a more engaging and visually appealing experience for users, with an emphasis on usability and accessibility. The addition of animations and transitions will also provide a smoother and more enjoyable user experience.
 
 # Lessons Learned
  
-# Throughout the development of this app, I learned the importance of mobile-first design and responsive web design. I also gained experience in using TailwindCSS for styling and the power of using high-quality images to enhance the user experience. Finally, I learned the importance of implementing optimizations to improve app performance and user experience.
+# Throughout the development of this app, I'm learning the importance of mobile-first design and responsive web design. I also gained experience in using TailwindCSS for styling and the power of using high-quality images to enhance the user experience. Finally, I learned the importance of implementing optimizations to improve app performance and user experience.
