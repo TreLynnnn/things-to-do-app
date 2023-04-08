@@ -1,52 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Things To Do in Dallas</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body class="bg-gray-100">
-    <nav class="bg-blue-900">
-        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items center h-16">
-          <div class="flex items-center justify-between h-16">
-            <div class="flex items-center">
-              <div class="flex-shrink-0">
-                <img class="h-8 w-8" src="logo.svg" alt="Logo">
-              </div>
-              <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-4">
-                  <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900">Home</a>
-                  <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">About</a>
-                  <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">Services</a>
-                  <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-      
-    <header class="bg-white p-4 shadow-md">
-      <h1 class="text-2xl font-bold text-gray-800 text-center">Things To Do in Dallas</h1>
-      <p class="m-6 text-center">Welcome to the Things To Do in Dallas app! This app is designed to help you discover fun and interesting things to do in Dallas, Texas. With just a click of a button, you can generate a new idea for your next adventure. Whether you're a local looking for new experiences or a tourist exploring the city, our app is the perfect tool to help you plan your next adventure. Try it out today and start discovering all the amazing things DFW has to offer!</p>
-      <div class="flex-1 flex justify-center">
-        <button
-        id="generate-idea-btn"
-        class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-      >
-        Generate Idea
-        </button>
+    <header class="bg-white shadow-md">
+      <div class="container mx-auto flex justify-between items-center py-4">
+        <a href="#" class="text-lg font-bold text-gray-900 sm:text-center">ThingsToDo | Dallas</a>
+        <nav>
+          <ul class="hidden sm:flex items-center space-x-4">
+            <li><a href="#" class="text-gray-700 hover:text-gray-900">Home</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
+            <li><a href="#" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+          </ul>
+        </nav>
+
       </div>
     </header>
 
-    <main class="max-w-4xl mx-auto py-8 flex-1 flex justify-center">
-      <p id="idea" class="text-2xl font-bold text-gray-800"></p>
+    <main class="container mx-auto items-center h-screen">
+        <p>Welcome to the Things To Do in Dallas app! This app is designed to help you discover fun and interesting things to do in Dallas, Texas. With just a click of a button, you can generate a new idea for your next adventure. Whether you're a local looking for new experiences or a tourist exploring the city, our app is the perfect tool to help you plan your next adventure. Try it out today and start discovering all the amazing things DFW has to offer!</p>
+       <div> <button id="generateBtn" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Generate</button></div>
+      <div id="activity" class="text-center text-3xl font-bold py-5"></div>
+      <div id="activityImage"></div>
     </main>
 
-    <script src="/js/main.js"></script>
+    <footer class="bg-gray-200 py-4">
+      <div class="container mx-auto text-center">
+        <p class="text-gray-600">©2023 Things To Do in Dallas</p>
+        <p class="text-gray-600">Contact: trelyn.dev@gmail.com</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
